@@ -7,12 +7,13 @@ const SelectUserTypePage = ({ navigation }) => {
 
   const handleRegister = () => {
     // navigation function
-    navigation.dispatch(
-      CommonActions.reset({
-        index: 0,
-        routes: [{ name: "Home" }],
-      })
-    );
+    // navigation.dispatch(
+    //   CommonActions.reset({
+    //     index: 0,
+    //     routes: [{ name: "Home" }],
+    //   })
+    // );
+    navigation.navigate("Home");
   };
 
   return (

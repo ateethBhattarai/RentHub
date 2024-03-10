@@ -1,0 +1,122 @@
+export const houseData = [
+  {
+    id: 1,
+    ownerName: "Utsav Bhattarai",
+    price: "2000",
+    payInEvery: "month",
+    location: "Itahari-08, Sunsari",
+    imageUrl:
+      "https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcTwGTmgN4WclFT5_MqG2LWj9nSsaabJ_hdFIxxBFf_SPblOvYwmOQdGu6cSOEmULMLm595LQ_FahMEgDtjqqDU",
+    updated: "1 hour ago",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora officia cum est blanditiis aliquam corporis excepturi odit ea itaque velit commodi labore ipsum autem reiciendis at perspiciatis eligendi, expedita sint temporibus? Optio tempora, facilis aperiam odit alias laboriosam? Distinctio minus commodi excepturi ratione cupiditate nostrum qui et exercitationem voluptas error illo sapiente asperiores, dolore eligendi nulla quam nemo sint explicabo unde itaque doloribus esse? Inventore rerum repellat sunt quasi magnam sed nobis alias excepturi soluta voluptas, labore ab obcaecati, itaque autem vitae sit. Facilis atque natus iste aspernatur dolorem tempora vitae temporibus! Cum, ea explicabo Reprehenderit, dolor? Obcaecati, accusantium labore?",
+    phoneNumber: "9812345678",
+  },
+  {
+    id: 2,
+    ownerName: "John Doe",
+    price: "1500",
+    payInEvery: "month",
+    location: "New York, USA",
+    imageUrl: "https://example.com/image2.jpg",
+    updated: "2 hours ago",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida risus a urna semper vehicula. Aliquam erat volutpat.",
+    phoneNumber: "1234567890",
+  },
+  {
+    id: 3,
+    ownerName: "Alice Smith",
+    price: "1800",
+    payInEvery: "month",
+    location: "London, UK",
+    imageUrl: "https://example.com/image3.jpg",
+    updated: "3 hours ago",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet magna eget massa dignissim vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    phoneNumber: "9876543210",
+  },
+  {
+    id: 4,
+    ownerName: "Michael Johnson",
+    price: "2200",
+    payInEvery: "month",
+    location: "Los Angeles, USA",
+    imageUrl: "https://example.com/image4.jpg",
+    updated: "4 hours ago",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vehicula risus et metus lobortis, at vestibulum mauris ullamcorper. Integer lacinia lacinia ante auctor fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+    phoneNumber: "1231231234",
+  },
+  {
+    id: 5,
+    ownerName: "Emma Johnson",
+    price: "1700",
+    payInEvery: "month",
+    location: "Paris, France",
+    imageUrl: "https://example.com/image5.jpg",
+    updated: "5 hours ago",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in dignissim neque. Cras malesuada massa vel purus fermentum, in aliquet ante efficitur. Nulla tristique consequat turpis, in suscipit elit vulputate vitae.",
+    phoneNumber: "9879879876",
+  },
+  {
+    id: 6,
+    ownerName: "Sophia Wilson",
+    price: "1900",
+    payInEvery: "month",
+    location: "Sydney, Australia",
+    imageUrl: "https://example.com/image6.jpg",
+    updated: "6 hours ago",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec bibendum mi. Integer non libero quis eros interdum luctus. Cras vestibulum feugiat lectus, ut aliquet eros. Vivamus dignissim mi eget lorem malesuada consequat.",
+    phoneNumber: "6543210987",
+  },
+  {
+    id: 7,
+    ownerName: "Olivia Brown",
+    price: "2500",
+    payInEvery: "month",
+    location: "Berlin, Germany",
+    imageUrl: "https://example.com/image7.jpg",
+    updated: "7 hours ago",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non dictum ligula, ut maximus nisi. Curabitur at sollicitudin lacus. Sed id mauris nisi. Ut viverra purus vel odio tempor, vel cursus risus lacinia.",
+    phoneNumber: "4564564567",
+  },
+  {
+    id: 8,
+    ownerName: "Noah Garcia",
+    price: "1600",
+    payInEvery: "month",
+    location: "Tokyo, Japan",
+    imageUrl: "https://example.com/image8.jpg",
+    updated: "8 hours ago",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt lectus eu efficitur lacinia. Praesent ut dui in risus vestibulum vestibulum. Vestibulum malesuada hendrerit velit eu feugiat. Integer et metus ipsum.",
+    phoneNumber: "7897897890",
+  },
+  {
+    id: 9,
+    ownerName: "Liam Martinez",
+    price: "2100",
+    payInEvery: "month",
+    location: "Moscow, Russia",
+    imageUrl: "https://example.com/image9.jpg",
+    updated: "9 hours ago",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat felis eu sapien dignissim, et viverra mauris ultrices. Ut nec feugiat nunc. Mauris condimentum erat vel magna sagittis, a condimentum lacus convallis. Mauris maximus sagittis lacus, at volutpat justo dapibus nec.",
+    phoneNumber: "3216549876",
+  },
+  {
+    id: 10,
+    ownerName: "Ava Rodriguez",
+    price: "2300",
+    payInEvery: "month",
+    location: "Rio de Janeiro, Brazil",
+    imageUrl: "https://example.com/image10.jpg",
+    updated: "10 hours ago",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum odio sed mi dapibus, in aliquet eros convallis. Donec eu ligula nec",
+  },
+];

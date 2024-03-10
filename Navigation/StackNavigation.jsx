@@ -5,6 +5,7 @@ import RegisterPage from "../screen/UserScreen/RegisterPage";
 import SelectUserTypePage from "../screen/UserScreen/SelectUserType";
 import WelcomePage from "../screen/UserScreen/WelcomePage";
 import HomeScreen from "../screen/HomeScreen";
+import DetailsScreen from "../screen/DetailsScreen";
 
 const Stack = createStackNavigator();
 
@@ -16,6 +17,7 @@ export default function StackNavigation() {
       <Stack.Screen name="Login" component={LoginPage} />
       <Stack.Screen name="Home" component={HomeScreen} />
       <Stack.Screen name="Select User Type" component={SelectUserTypePage} />
+      <Stack.Screen name="Details" component={DetailsScreen} />
     </Stack.Navigator>
   );
 }

@@ -15,12 +15,13 @@ const LoginPage = ({ navigation }) => {
 
   const handleLogin = () => {
     //for navigation only
-    navigation.dispatch(
-      CommonActions.reset({
-        index: 0,
-        routes: [{ name: "Home" }],
-      })
-    );
+    // navigation.dispatch(
+    //   CommonActions.reset({
+    //     index: 0,
+    //     routes: [{ name: "Home" }],
+    //   })
+    // );
+    navigation.navigate("Home");
   };
 
   return (

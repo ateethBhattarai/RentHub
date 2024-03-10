@@ -7,15 +7,31 @@ const NavigationBar = () => {
   const navigation = useNavigation();
   return (
     <View style={styles.navContainer}>
-      <TouchableOpacity onPress={() => navigation.navigate("Home")}>
+      <TouchableOpacity
+        style={styles.itemCenter}
+        onPress={() => navigation.navigate("Home")}
+      >
         <Ionicons name="home-outline" size={24} color="black" />
         <Text style={styles.navText}>Home</Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => navigation.navigate("Favourites")}>
-        <Ionicons name="favorite-outline" size={24} color="black" />
+      <TouchableOpacity
+        style={styles.itemCenter}
+        onPress={() => navigation.navigate("Favourites")}
+      >
+        <Ionicons name="heart-outline" size={24} color="black" />
         <Text style={styles.navText}>Favourites</Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => navigation.navigate("Profile")}>
+      <TouchableOpacity
+        style={styles.itemCenter}
+        onPress={() => navigation.navigate("Message")}
+      >
+        <Ionicons name="logo-whatsapp" size={24} color="black" />
+        <Text style={styles.navText}>Message</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        style={styles.itemCenter}
+        onPress={() => navigation.navigate("Profile")}
+      >
         <Ionicons name="person-outline" size={24} color="black" />
         <Text style={styles.navText}>Profile</Text>
       </TouchableOpacity>
@@ -32,6 +48,9 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     borderTopWidth: 1,
     borderTopColor: "#eaeaea",
+  },
+  itemCenter: {
+    alignItems: "center",
   },
   navItem: {
     alignItems: "center",
